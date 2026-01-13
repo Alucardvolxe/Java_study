@@ -1,4 +1,4 @@
-import java.awt.*;
+package def;
 
 public class Main{
   public  static void  main(String[] args){
@@ -12,7 +12,15 @@ public class Main{
 
     //Objects
     String name = "Daniel";
+    //Printing to console
     System.out.println(name.toUpperCase());
+
+    animal h = new animal();
+
+    h.dostuff();
+
+
+
 
 
   }
