@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class Main{
   public  static void  main(String[] args){
 
@@ -7,6 +9,10 @@ public class Main{
     char b = 'i';
     long c = 400;
     double d = 3.2;
+
+    //Objects
+    String name = "Daniel";
+    System.out.println(name.toUpperCase());
 
 
   }
